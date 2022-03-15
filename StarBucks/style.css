@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0 2%;  
+}
+
+header{
+    height: 200px;
+    padding: 20px 0;
+}
+
+.logo-bg {
+    width: 56px;
+    height: 56px;
+    margin: 0 15px;
+}
+
+.logo{
+    width: 50%;
+}
+
+.menu{
+    padding-top: 10px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 20px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    bottom: -800px;
+    right: -300px;
+    width: 700px;
+    height: 700px;
+    background: rgba(1, 113, 67, 0.8);
+    border-radius: 50%;
+}
+
+.coffe{
+    width: 250px;
+}
+
+.social-media{
+    position: absolute;
+    left: 390px;
+    top: 200px;
+}
+
+.social-media img{
+    display: block;
+    width: 20px;
+    margin:20px 0;
+}
+
+.title{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0 2%; 
+}
+
+.texto-sobre{
+    margin: 80px 120px;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.texto-sobre span{
+    font-weight: 800;
+    color: rgba(1, 113, 67);
+}
+
+.texto-sobre p{
+    font-size: 14px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+button{
+    background: rgba(1, 113, 67, 0.8);
+    border: 0;
+    color: aliceblue;
+    border-radius: 50px;
+    width: 100px;
+    padding: 5px;
+    height: 40px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+button:hover{
+    transition: 0.3s;
+    background: rgba(1, 113, 67);
+    transform: translateY(3px);
+}
+
+.images-coffe{
+    position: absolute;
+    width: 400px;
+    bottom: 30px;
+    left: 50%;
+
+    
+}
+
+.images-coffe img{
+    width: 50px;
+    padding: 5px;
+}
+
+.images-coffe img:hover{
+    transition: 0.3s;
+    background: rgba(1, 113, 67, 0.5);
+    transform: translateY(3px);
+    border-radius: 5px;
+}
